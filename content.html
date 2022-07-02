@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Styling.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100">
+        <audio autoplay loop>
+            <source src="Robotek.m4a" type="audio/ogg">
+          </audio> 
+       <h1>Products List</h1>
+       <button type="button" class="btn btn-outline-primary btn-lg bttn" data-toggle="modal" data-target="#exampleModal">
+           <p class="edit1">Add Product</p>
+        </button>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 my-5 px-3 d-flex justify-content-center">
+            <div class="card" style="width: 19rem;">
+              <img class="card-img-top" src="Cat.jpg" alt="image">
+              
+              <div class="card-body">
+                <h4 class="card-title mt-1">Xiaomi MI 12</h4>
+                <p class="card-text">Price: 200000 PKR</p>
+                <p class="card-text">Color: Magenta</p>
+                <p class="card-text">Category: Smartphone</p>
+                <div class="group">
+                  <p class="card-text">Description<br>A smartphone is a handheld electronic device that provides a connection to a cellular network and the internet.</p>
+                  <button type="button" class="btn btn-outline-primary btn-lg btttn float-right" data-toggle="modal" data-target="#exampleModal">
+                    <p class="edit">Edit</p>
+                 </button>
+                 <button type="button" class="btn btn-outline-primary btn-lg btttn float-right btn-space ctn" data-toggle="modal" data-target="#exampleModal">
+                  <p class="edit">Delete</p>
+               </button>
+
+                </div>
+              </div>
+            
+            </div>
+
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 my-5 d-flex justify-content-center">
+            <div class="card" style="width: 19rem;">
+              <img class="card-img-top" src="Cat.jpg" alt="image">
+              <div class="card-body">
+                <h4 class="card-title mt-1">X-Box 360</h4>
+                <p class="card-text">Price: 7000 PKR</p>
+                <p class="card-text">Color: White</p>
+                <p class="card-text">Category: Gaming</p>
+                <div class="group">
+                  <p class="card-text">Description<br>The Xbox 360 is a home video game console developed by Microsoft. As the successor to the original Xbox, it is the....</p>
+                  <button type="button" class="btn btn-outline-primary btn-lg btttn float-right" data-toggle="modal" data-target="#exampleModal">
+                    <p class="edit">Edit</p>
+                 </button>
+                 <button type="button" class="btn btn-outline-primary btn-lg btttn float-right btn-space ctn" data-toggle="modal" data-target="#exampleModal">
+                  <p class="edit">Delete</p>
+               </button>
+
+                </div>
+              </div>
+            
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 my-5 d-flex justify-content-center">
+            <div class="card" style="width: 19rem;">
+              <img class="card-img-top" src="Cat.jpg" alt="image">
+              <div class="card-body">
+                <h4 class="card-title mt-1">Razer Mouse</h4>
+                <p class="card-text">Price: 10000 PKR</p>
+                <p class="card-text">Color: Black</p>
+                <p class="card-text">Category: Computer Accesories</p>
+                <div class="group">
+                  <p class="card-text">Description<br>Gaming without good mouse is not possible. Razer provide you high speed and accuracy...</p>
+                  <button type="button" class="btn btn-outline-primary btn-lg btttn float-right" data-toggle="modal" data-target="#exampleModal">
+                    <p class="edit">Edit</p>
+                 </button>
+                 <button type="button" class="btn btn-outline-primary btn-lg btttn float-right btn-space ctn" data-toggle="modal" data-target="#exampleModal">
+                  <p class="edit">Delete</p>
+               </button>
+
+                </div>
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input class="form-control" id="name" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Color</label>
+                            <input class="form-control" id="name" placeholder="Enter Color">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Price</label>
+                            <input class="form-control" id="name" placeholder="Enter Price">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Product Type</label>
+                            <input class="form-control" id="name" placeholder="Enter Product Category">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Product Description</label>
+                            <input class="form-control" id="name" placeholder="Enter Description">
+                        </div>
+                    </form>
+                  
+                </div>
+               
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- <script type="text/javascript" src="code.js"></script> -->
+      
+    
+    
+    
+  </body>
+</html>
